@@ -238,5 +238,9 @@ log('min ', min(3, 2))
 
 // 练习, 实现 max 函数, 接收两个参数, 返回较大的那一个值
 const max = function (a, b) {
-
+    if (a < b) {
+        return b
+    } else {
+        return a
+    }
 }
