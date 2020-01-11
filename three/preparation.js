@@ -94,6 +94,23 @@ var demoMin = function () {
 
 demoMin()
 
+var demoMax = function () {
+    // 这是一段获取数组中最小元素的代码
+    var a1 = [3, 9, 2, 0, 8]
+    var max = a1[0]
+    var i = 0
+    while (i < a1.length()) {
+        var n = a1[i]
+        if (n > max) {
+            max = n
+        }
+        i += 1
+    }
+    log('max', max)
+}
+
+demoMax()
+
 
 
 
