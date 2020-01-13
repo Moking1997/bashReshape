@@ -102,6 +102,7 @@ var demoMax = function () {
     while (i < a1.length()) {
         var n = a1[i]
         if (n > max) {
+
             max = n
         }
         i += 1
